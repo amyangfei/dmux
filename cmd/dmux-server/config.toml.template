@@ -1,0 +1,9 @@
+[Base]
+LogFile = './dmux_server.log'
+RegistryHost = '127.0.0.1'
+RegistryPort = 6000
+StoreDB = 'goleveldb'
+DBPath = '.'
+
+[Plugin]
+Plugins = ['logfile', 'http']
